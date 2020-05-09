@@ -23,6 +23,7 @@ int main() {
     cin >> s;
     char c;
     cin >> c;
+    sort(s.begin(), s.end());
     cout << binarysearch(s, 0, s.size()-1, c) << endl;
 return 0;
 }
